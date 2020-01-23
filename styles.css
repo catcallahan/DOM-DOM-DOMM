@@ -1,0 +1,15 @@
+
+.square {
+    flex-direction: row;
+    height: 50px;
+    width: 50px;
+    background-color: black;
+    border: 1px solid white;
+}
+
+.firstLine {
+    display: flex;
+    align-self: flex-start;
+    flex-wrap: wrap;
+    padding: 1em;
+}
