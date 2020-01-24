@@ -1,11 +1,19 @@
 
 .square {
-    flex-direction: row;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     height: 50px;
     width: 50px;
     background-color: black;
     border: 1px solid white;
 }
+
+
+.square:hover {
+    color: white;
+}
+
 
 .firstLine {
     display: flex;
