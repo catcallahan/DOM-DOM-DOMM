@@ -47,7 +47,6 @@ function clickButton() {
     })
 
     function rmvEvenDiv() {
-        console.log(div.nextSibling);
         div.parentNode.removeChild(div.nextSibling);
     }
 
